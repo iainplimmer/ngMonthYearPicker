@@ -7,10 +7,14 @@ A month year picker component that can be used to raise an event.
 
 2. Use as follows in your HTML....  
 
-  <month-year-picker></month-year-picker>
+  <code>
+  < month-year-picker >< / month-year-picker >
+  </code>
 
 3. Listen for the event
 
+<code>
   $rootScope.$on("MonthYearPickerEvent", function(evt, month, year){
-    console.log('READY FOR THAT EVENT THEN ARE WE?', month, year)
-  });            
+ 
+  }); 
+  </code>
